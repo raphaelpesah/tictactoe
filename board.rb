@@ -2,21 +2,22 @@ require "pry"
 
 class Board
 	require_relative "boardcase.rb"
+
 	include Enumerable
-	attr_accessor :tableau
-	@tableau = [""]
+	attr_accessor :@@plateau
+	@@plateau = [""]
 
 	def initialize
-		caseHG = BoardCase.new(1,2)
+		BoardCase.new
 	end
-
-	@tableau = ["caseHG"] 
 
 
 	def to_s
+		p @@plateau
 	end
 
 	def play
+
 	end
 
 	def victory?
