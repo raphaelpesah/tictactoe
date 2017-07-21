@@ -6,7 +6,8 @@ class Player
 	end
 
 end
-
+#Yo
+#Yo
 =begin
 
 	def get_name

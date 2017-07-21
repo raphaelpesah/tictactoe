@@ -10,8 +10,8 @@ class BoardCase
 	def to_s
 		@valeur.to_s
 	end
-
-
+#Yo
+#Yo
 end
 
 

@@ -11,7 +11,9 @@ class Board
 	end
 
 	@tableau = ["caseHG"] 
-
+#Yo
+#ok
+#Yo
 
 	def to_s
 	end
