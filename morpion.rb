@@ -60,8 +60,8 @@ class Board
     return "U"
   end
 
-  def dropCase(case, ligne, col)
-    @board[ligne][col] = piece if (0..2) === ligne &&
+  def dropCase(square, ligne, col)
+    @board[ligne][col] = square if (0..2) === ligne &&
                                 (0..2) === col &&
                                 @board[ligne][col] == " "
   end
@@ -77,7 +77,7 @@ while board.findWinner == "U"
 
   puts "Au tour de #{active_player}. Choisis une case!"
   move = gets.chomp.to_i - 1
-  row = move / 3
+  ligne = move / 3
   col = move % 3
 
   puts "\n" * 100
