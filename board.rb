@@ -1,5 +1,5 @@
 require "pry"
-
+#coucou
 class Board
 	require_relative "boardcase.rb"
 	include Enumerable
